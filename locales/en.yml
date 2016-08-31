@@ -1,0 +1,11 @@
+---
+en:
+  about:
+    title: About me
+    description: After working mainly as a journalist I started studying medicin - and fell in love with programming...
+    skills_title: 'Armed with skills like:'
+    skills_list:
+      - Ruby
+      - JavaScript
+      - HTML & CSS
+      - And I want to learn more
