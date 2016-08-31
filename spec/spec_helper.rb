@@ -5,6 +5,7 @@ require 'middleman-core/rack'
 require 'middleman-livereload'
 require 'middleman-deploy'
 
+
 middleman_app = ::Middleman::Application.new
 
 Capybara.app = ::Middleman::Rack.new(middleman_app).to_app do

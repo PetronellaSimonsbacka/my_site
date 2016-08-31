@@ -1,11 +1,14 @@
-- name: BMI-machine
-  description: A little machine, built in Javascript, that calculates Body Mass Index
-  url: nella-kodar.nu
+- :item:
+    :name: BMI-machine
+    :description: A little machine, built in Javascript, that calculates Body Mass Index
+    :url: nella-kodar.nu
 
-- name: Livshungrig
-  description: My blogg about surviving cancer and moving in to a new life - in code :)
-  url: http://nouw.com/livshungrig
+- :item:
+    :name: Livshungrig
+    :description: My blogg about surviving cancer and moving in to a new life - in code :)
+    :url: http://nouw.com/livshungrig
 
-- name: Slow food challenge
-  description: A pair- and mob- programming project at Craft Academy
-  url: https://github.com/PetronellaSimonsbacka
+- :item:
+    :name: Slow food challenge
+    :description: A pair- and mob- programming project at Craft Academy
+    :url: https://github.com/PetronellaSimonsbacka
