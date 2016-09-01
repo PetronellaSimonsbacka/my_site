@@ -1,8 +1,56 @@
-.welcome
-  .logo
-    = image_tag 'middleman-logo.svg'
-  %h1 Nella Kodar
+!!!
+%html
+  %head
+    :css
+      div.container {
+          width: 100%;
+          border: 1px solid gray;
+      }
 
-  %p.doc
-    = link_to 'My BMI-machine', 'https://middlemanapp.com', target: '_blank'
-    =partial "partials/footer"
+      header, footer {
+          padding: 1em;
+          color: white;
+          background-color: black;
+          clear: left;
+          text-align: center;
+      }
+
+      nav {
+          float: left;
+          max-width: 160px;
+          margin: 0;
+          padding: 1em;
+      }
+
+      nav ul {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      nav ul a {
+          text-decoration: none;
+      }
+
+      article {
+          margin-left: 170px;
+          border-left: 1px solid gray;
+          padding: 1em;
+          overflow: hidden;
+      }
+  %body
+    .container
+      %header
+        %h1 Nella kodar
+      %nav
+        %ul
+          %li
+            %a{:href => "#"} BMI-machine
+          %li
+            %a{:href => "#"} Slow food app
+          %li
+            %a{:href => "#"} My blog
+      %article
+        %h1 Petronella Simonsbacka
+        %p I worked as i journalist, started studying medicin and fell in love with coding... Now I just want to keep learning more for the rest of my life.
+        %p Welcome to my Me-page where I post my various projects.
+      %footer Copyright © Petronella Simonsbacka
