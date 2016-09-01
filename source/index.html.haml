@@ -1,6 +1,5 @@
 !!!
 %html
-  %img{:alt => "some text", :height => "32", :src => ".../assets/img/about-bg.jpg", :width => "32"}/
   %head
     :css
       div.container {
@@ -45,13 +44,17 @@
       %nav
         %ul
           %li
-            %a{:href => "#"} BMI-machine
+            %a{:href => "#"}
+            = link_to 'BMI-machine', 'http://www.nella-kodar.nu'
           %li
-            %a{:href => "#"} Slow food app
+            %a{:href => "#"}
+            = link_to 'Slow food app', 'https://github.com/PetronellaSimonsbacka/slow_food_august'
           %li
-            %a{:href => "#"} My blog
+            %a{:href => "#"}
+            = link_to 'My blog', 'http://nouw.com/livshungrig'
       %article
+        = image_tag "post-bg.jpg"
         %h1 Petronella Simonsbacka
         %p I worked as i journalist, started studying medicin and fell in love with coding... Now I just want to keep learning more for the rest of my life.
-        %p Welcome to my Me-page where I post my various projects.
+        %p Welcome to my me-page where I post my various projects.
       %footer Copyright © Petronella Simonsbacka
