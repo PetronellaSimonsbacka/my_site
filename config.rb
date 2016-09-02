@@ -42,7 +42,7 @@ configure :build do
     activate :relative_assets
     activate :build_cleaner
     activate :bh
-    activate :blog
+  #  activate :blog
   end
 end
 
